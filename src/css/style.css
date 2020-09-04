@@ -1,0 +1,224 @@
+* {
+	font-family: 'Roboto', sans-serif;
+	padding: 0px;
+}
+
+nav {
+	width: 100%;
+	height: 50px;
+	background-color: #212121;
+}
+
+.container {
+	margin: 0 auto;
+}
+
+header {
+	position: relative;
+}
+
+header nav {
+	padding: 13px 70px;
+}
+
+.container .menu {
+	display: flex;
+	margin: 0;
+	list-style-type: none;
+	justify-content: space-around;
+	padding: 0px;
+}
+
+.menu .menu-point {
+	border-right: 2px dotted #000000;
+	padding-right: 60px;
+}
+
+.menu .menu-point a {
+	text-decoration: none;
+	color: #ffffff;
+	font-family: Roboto;
+	font-size: 15px;
+	font-weight: 300;
+}
+
+header .subheader {
+	position: absolute;
+	width: 100%;
+	height: 84px;
+	background-color: rgba(0, 0, 0, .5);
+}
+
+header .subheader a.subheader_link {
+	width: 100%;
+	display: block;
+	height: auto;
+	padding-top: 21px;
+}
+
+.subheader .subheader-text {
+	color: #ffffff;
+	font-size: 13px;
+	font-weight: 400;
+	padding-top: 9px;
+}
+
+.subheader .subheader-call {
+	color: #ffffff;
+	font-size: 12px;
+	font-weight: 300;
+	padding-top: 21px;
+	text-align: right;
+}
+
+div.GRI a {
+	color: #ffffff;
+	font-size: 22px;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding-top: 10px;
+	text-align: center;
+	padding-left: 55px;
+}
+
+.subheader button.push {	
+	width: 172px;
+	height: 46px;
+	background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	margin-top: 19px;
+	border-radius: 6px;
+	border: 1px solid rgba(0, 0, 0, 0.07);
+}
+
+section.promo {	
+	min-height: 799px;
+	background: url('../img/gasoline.jpg') center center/ cover no-repeat;
+	padding: 151px 0 135px 0;
+}
+
+.promo h1.promo_header {	
+	color: #ffffff;
+	font-size: 36px;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 60px;
+	font-weight: 400;
+	text-align: center;
+	margin: 0px;
+	margin-top: 67px;
+}	
+
+.promo h2.promo_subheader {
+	margin: 0px;
+	color: #ffffff;
+	font-size: 36px;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 45px;
+	font-weight: 400;
+	text-align: center;
+}
+
+.promo div.promo_text {
+	min-height: 161px;
+	width: 1200px;
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: center;	
+	margin-top: 23px;
+}
+
+.promo .promo_btn {
+	width: 259px;
+	height: 63px;
+	box-shadow: 0 4px 0 rgba(0, 0, 0, 0.12);
+	border: 1px solid rgba(0, 0, 0, 0.07);
+	background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 68px;
+	text-transform: uppercase;
+	border-radius: 3px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 118px; 
+}
+
+section.reasons {
+	min-height: auto;
+	background: #ffd;
+	padding-bottom: 65px;
+	padding-top: 71px;
+}
+
+.btn {
+	color: #ffffff;
+	font-size: 11px;
+	font-weight: 400;
+	text-transform: uppercase;
+	width: 112px;
+	height: 24px;
+	background-color: #000000;
+	display: block;
+	margin: 0 auto;
+}
+	
+.title {
+	color: #222222;
+	font-size: 38px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+section.reasons div.h2 {
+	color: #1eacc7;
+	font-size: 17px;
+	font-weight: 400;
+}
+
+section.reasons div.cover {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 35px;
+}
+
+section.reasons div.desc {
+	width: 530px;
+}
+
+
+section.reasons div.text {
+	color: #202020;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 21px;
+	text-align: justify;
+}
+
+section.reasons div.round {
+	width: 113px;
+	height: 113px;
+	background-color: #1eacc7;
+	border-radius: 100%;
+}
+
+section.reasons img {
+	display: block;
+	margin: 0 auto;
+	padding-top: 25px;
+}
+
